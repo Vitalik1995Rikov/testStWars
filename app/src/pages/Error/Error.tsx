@@ -1,5 +1,7 @@
 function Error() {
-    return <div>Error</div>
+    return <div className="bg-[#17002F]">
+        <img src="" alt="404" />
+    </div>
 }
 
 export default Error;
