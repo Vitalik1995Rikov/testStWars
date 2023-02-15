@@ -1,5 +1,9 @@
+import CharactersList from "../../components/CharactersList/CharactersList";
+
 function Characters() {
-    return <div className="text-6xl">Characters</div>
+    return <div className="">
+        <CharactersList/>
+    </div>
 }
 
 export default Characters;
